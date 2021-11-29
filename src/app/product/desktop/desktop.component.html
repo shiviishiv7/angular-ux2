@@ -1,0 +1,15 @@
+<div class="container-desktop">
+    <mat-card *ngFor="let item of desktopitem">
+        <mat-card-header>
+            <h1>{{item.company}}</h1>
+            <span>Core</span>&nbsp;&nbsp;<h1> {{item.core}}</h1>
+        </mat-card-header>
+        <img mat-card-image [src]="item.image">
+        <mat-card-content>
+            <span>Price:</span>&nbsp;
+           <h2> &nbsp;{{item.price}}</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <button mat-raised-button color="accent">BUY</button> 
+        </mat-card-content>
+       
+    </mat-card>
+</div>

@@ -1,0 +1,16 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button (click)="menuClick()"><mat-icon>menu</mat-icon></button>
+    <span>My App</span>
+    <span class="spacer"></span>
+    <mat-nav-list >
+        <a routerLink="home">Home</a>
+        <a routerLink="product">Product</a>
+        
+        <a routerLink="contact">Contact</a>
+    </mat-nav-list>
+    <span class="spacer"></span>
+    <mat-nav-list>
+        <a routerLink="login">Login</a>
+        <a routerLink="signup">Signup</a>
+    </mat-nav-list>
+</mat-toolbar>

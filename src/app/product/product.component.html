@@ -1,0 +1,11 @@
+<mat-card *ngFor="let item of items">
+    <mat-card-header>
+        <mat-card-title >{{item.type}}</mat-card-title>
+        <mat-card-subtitle>{{item.desc}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="item.image">
+    <mat-card-actions>
+        <button mat-raised-button color="primary" [value]="item.type" (click)="explore(item.type)">Explore</button>
+        <button mat-raised-button color="accent">Buy</button>
+    </mat-card-actions>
+</mat-card>

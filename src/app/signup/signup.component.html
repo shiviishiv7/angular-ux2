@@ -1,0 +1,58 @@
+<div class="container-login">
+
+    <div class="container-login-item container-login-item1">
+        <mat-icon>account_circle</mat-icon>
+    </div>
+    
+    <div class="container-login-item container-login-item2">
+        <h1>Login to My App</h1>
+    </div>
+    <div class="container-login-item container-login-item3">
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput [(ngModel)]="email">
+        </mat-form-field>
+    </div>
+    <div class="container-login-item container-login-item4">
+        <mat-form-field appearance="fill">
+            <mat-label>Password</mat-label>
+            <input matInput [(ngModel)]="password">
+        </mat-form-field>
+    </div>
+    <div class="container-login-item container-login-item5">
+        <mat-form-field appearance="fill">
+            <mat-label>Confirm Password</mat-label>
+            <input matInput [(ngModel)]="confirmpassword">
+        </mat-form-field>
+    </div>
+    <div class="container-login-item container-login-item6">
+        <mat-form-field appearance="fill">
+            <mat-label>Age</mat-label>
+            <input matInput [(ngModel)]="age">
+        </mat-form-field>
+        <mat-radio-group [(ngModel)]="gender">
+                <span>Gender</span><br>
+                <mat-radio-button [value]="'male'"> Male</mat-radio-button>&nbsp;   
+                <mat-radio-button [value]="'female'">Female</mat-radio-button>
+        </mat-radio-group>
+    </div>
+    <div class="container-login-item container-login-item7">
+       
+        <mat-form-field appearance="fill">
+            <mat-label>Phone Number</mat-label>
+            <input matInput [(ngModel)]="phonenumber">
+        </mat-form-field>
+    </div>
+    <div class="container-login-item container-login-item8">
+        <button mat-raised-button color="primary" (click)="signup()">Signup</button>
+        <button mat-raised-button color="secondary" (click)="login()" >Login</button>
+    </div>
+    <div class="container-login-item container-login-item9"></div>
+    <div class="container-login-item container-login-item10">
+    
+    <i class='fab fa-google fa-2x icon'></i>
+    <i class='fab fa-twitter fa-2x icon'></i>
+    <i class='fab fa-github fa-2x icon'></i>
+    </div>
+    
+    </div>

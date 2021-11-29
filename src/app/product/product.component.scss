@@ -1,0 +1,14 @@
+mat-card{
+    width: 280px;
+    display: inline-block;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 5px red;
+    background-color: rgb(186, 186, 216);
+
+mat-card-actions{
+    display: flex;
+    justify-content: space-around;
+}
+
+}

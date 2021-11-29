@@ -1,0 +1,36 @@
+<div class="container-login">
+
+    <div class="container-login-item container-login-item1">
+        <mat-icon>account_circle</mat-icon>
+    </div>
+    
+    <div class="container-login-item container-login-item2">
+        <h1>Login to My App</h1>
+    </div>
+    <div class="container-login-item container-login-item3">
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput [(ngModel)]="email">
+        </mat-form-field>
+    </div>
+    <div class="container-login-item container-login-item4">
+        <mat-form-field appearance="fill">
+            <mat-label>Password</mat-label>
+            <input matInput [(ngModel)]="password">
+        </mat-form-field>
+    </div>
+    
+    <div class="container-login-item container-login-item8">
+        <button mat-raised-button color="primary" (click)="login()" >Login</button>
+        <button mat-raised-button color="secondary" (click)="signup()">Signup</button>
+    
+    </div>
+    <div class="container-login-item container-login-item9"></div>
+    <div class="container-login-item container-login-item10">
+    
+    <i class='fab fa-google fa-2x icon'></i>
+    <i class='fab fa-twitter fa-2x icon'></i>
+    <i class='fab fa-github fa-2x icon'></i>
+    </div>
+    
+    </div>

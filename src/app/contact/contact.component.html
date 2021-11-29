@@ -1,0 +1,71 @@
+<div class="container-contact">
+    <div class="container-contact-item container-contact-item1">
+            <div class="contact-item contact-item1">
+                <mat-form-field appearance="fill">
+                    <mat-label>First Name</mat-label>
+                    <input matInput [(ngModel)]="firstName" required>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput [(ngModel)]="lastName" required>
+                </mat-form-field>
+            </div>
+            <div class="contact-item contact-item2">
+                <mat-form-field appearance="fill">
+                    <mat-label>Email</mat-label>
+                    <input matInput [(ngModel)]="email" required>
+                </mat-form-field>
+            </div>
+            <div class="contact-item contact-item3">
+                <mat-form-field appearance="fill">
+                    <mat-label>Message</mat-label>
+                    <input matInput [(ngModel)]="message" required>
+                </mat-form-field>
+            </div>
+            <div class="contact-item contact-item4">
+                <mat-form-field appearance="fill">
+                    <mat-label>Additional Details</mat-label>
+                    <textarea cols="100" rows="8" matInput required [(ngModel)]="additionalMessage"></textarea>
+                </mat-form-field>
+            </div>
+            <div class="contact-item contact-item5">
+                <button mat-raised-button color="primary">Submit</button>
+                <button mat-raised-button color="secondary">Reset</button>
+            </div>
+    </div>
+    <div class="container-contact-item container-contact-item2">
+     
+        <div class="contact-item-2 contact-item21">
+            <h2>How Can We Help</h2>
+             <p>Please select topic below related to your inquiry.if you
+            dont find what you need, fill out our contact form
+             </p>
+        </div>
+        <div class="contact-item-2 contact-item22">
+            
+        <h2>Book a Demo</h2>
+        <p>Request a demo call from one of our conversion specialist</p>
+        
+        </div>
+        <div class="contact-item-2 contact-item23">
+            <h2>Get Inspired</h2>
+            <p>Discover the manu ways in which our customer use Notes</p>
+        
+        </div>
+        <div class="contact-item-2 contact-item24">
+            <h2>Become a Parter</h2>
+        <p>Join Partner Program and earn 25% recurring commissions</p>
+        
+        </div>
+        <h1>Trusted By</h1><br>
+        <div class="contact-item-2 contact-item25">
+        
+          
+            <i class='fab fa-google fa-2x icon'></i>
+            <i class='fab fa-twitter fa-2x icon'></i>
+            <i class='fab fa-github fa-2x icon'></i>
+          
+        </div>
+        
+    </div>
+</div>
